@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.POS">
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Update"
+            android:exported="true" />
+        <activity
+            android:name=".Inventory"
+            android:exported="true" />
+        <activity
+            android:name=".Sales"
+            android:exported="true" />
+        <activity
+            android:name=".Account"
+            android:exported="true" />
+        <activity
+            android:name=".Update_inventory"
+            android:exported="true" />
+        <activity
+            android:name=".Add_inventory"
+            android:exported="true" />
+        <activity
+            android:name=".Transaction"
+            android:exported="true" />
+        <activity
+            android:name=".TransactionList"
+            android:exported="true" />
+        <activity
+            android:name=".Menu"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>
